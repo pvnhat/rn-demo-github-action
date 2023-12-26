@@ -16,7 +16,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - uses: actions/setup-node@master
-      - uses: c-hive/gha-yarn-cache@v1
       - name: Install Yarn Dependencies
         run: yarn install
       - name: Lint
